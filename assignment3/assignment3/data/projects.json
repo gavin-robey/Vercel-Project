@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "AI-Powered Sandwich Maker",
+    "description": "Engineered an AI system capable of analyzing complex culinary patterns to craft sandwiches tailored to individual taste profiles.",
+    "image": "/sandwich.jpg",
+    "technology": ["Python", "TensorFlow", "Machine Learning", "React"],
+    "startDate": "2022-03-01",
+    "endDate": "2022-09-30"
+  },
+  {
+    "id": 2,
+    "name": "Unicorn Rental Platform",
+    "description": "Developed a highly scalable platform for managing the logistics of mythical creature rentals, including real-time tracking and secure payment systems.",
+    "image": "/corn.webp",
+    "technology": ["Next.js", "Node.js", "MongoDB", "Stripe"],
+    "startDate": "2021-06-15",
+    "endDate": "2022-01-31"
+  },
+  {
+    "id": 3,
+    "name": "Blockchain-based Pizza Tracker",
+    "description": "Implemented a blockchain solution to ensure end-to-end transparency and accountability in pizza delivery logistics.",
+    "image": "/pizza.jpg",
+    "technology": ["Solidity", "Ethereum", "Web3.js", "React"],
+    "startDate": "2020-11-01",
+    "endDate": "2021-05-31"
+  },
+  {
+    "id": 4,
+    "name": "Augmented Reality Cat Simulator",
+    "description": "Designed an immersive AR experience replicating feline behavior with advanced physics simulations and environmental interactions.",
+    "image": "/cat.png",
+    "technology": ["Unity", "ARKit", "ARCore", "C#"],
+    "startDate": "2020-02-15",
+    "endDate": "2020-08-31"
+  },
+  {
+    "id": 5,
+    "name": "Smart Toaster Automation System",
+    "description": "Created an IoT-enabled toaster with precision heat control and real-time feedback mechanisms for optimal toasting performance.",
+    "image": "/toast.avif",
+    "technology": ["Raspberry Pi", "Python", "MQTT", "React Native"],
+    "startDate": "2019-09-01",
+    "endDate": "2020-01-31"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Frontend Developer",
+    "company": "LunarTech Solutions",
+    "logo": "/abis.jpg",
+    "description": "Developed user-friendly web interfaces for applications used by astronauts. Played a key role in designing the dashboard for the first moon landing mission.",
+    "startDate": "2021-03-01",
+    "endDate": "Present"
+  },
+  {
+    "id": 2,
+    "name": "Backend Engineer",
+    "company": "MoonBase Systems",
+    "logo": "/bl.jpg",
+    "description": "Built scalable APIs and data pipelines to support lunar exploration missions. Ensured seamless communication between Earth and moon-based systems.",
+    "startDate": "2019-06-15",
+    "endDate": "2021-02-28"
+  },
+  {
+    "id": 3,
+    "name": "DevOps Specialist",
+    "company": "AstroOps Inc.",
+    "logo": "/monster.jpg",
+    "description": "Implemented CI/CD pipelines for software deployed on spacecraft. Optimized system reliability for critical moon landing operations.",
+    "startDate": "2017-09-01",
+    "endDate": "2019-06-14"
+  },
+  {
+    "id": 4,
+    "name": "Mobile App Developer",
+    "company": "OrbitApps LLC",
+    "logo": "/ghost.png",
+    "description": "Created mobile applications for astronauts to track mission progress and log moon surface activities. Focused on offline functionality and usability in zero-gravity environments.",
+    "startDate": "2017-01-15",
+    "endDate": "2017-08-31"
+  },
+  {
+    "id": 5,
+    "name": "UI/UX Designer",
+    "company": "Cosmic Interfaces Ltd.",
+    "logo": "/bwm.png",
+    "description": "Designed intuitive interfaces for lunar mission control systems. Conducted user research with astronauts to ensure optimal usability during moon landings.",
+    "startDate": "2016-03-01",
+    "endDate": "2016-12-31"
+  }
+  ]
