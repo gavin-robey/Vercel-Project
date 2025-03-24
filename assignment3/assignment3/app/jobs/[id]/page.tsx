@@ -2,13 +2,8 @@ import Image from "next/image"
 import { notFound } from "next/navigation"
 import jobs from "@/data/jobs.json"
 
-type PageProps = {
-    params: {
-        id: string;
-    };
-};
 
-export default function JobPage({ params }: PageProps) {
+export default function JobPage({ params }: { params: { id: string } }) {
     const job = jobs.find((j) => j.id.toString() === params.id)
 
     if (!job) {
