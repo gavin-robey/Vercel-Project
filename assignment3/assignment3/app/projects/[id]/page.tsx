@@ -1,13 +1,13 @@
+"use client";
+
 import Image from "next/image"
 import { notFound } from "next/navigation"
 import projects from "@/data/projects.json"
+import { use } from 'react';
 
-type Params = {
-    id: string
-}
-
-export default async function ProjectPage({ params }: { params: Params }) {
-    const project = projects.find((p) => p.id.toString() === params.id)
+export default function ProjectPage({ params }: { params: Promise<{ id: string }>}) {
+    const { id } = use(params);
+    const project = projects.find((p) => p.id.toString() === id)
 
     if (!project) {
         notFound()

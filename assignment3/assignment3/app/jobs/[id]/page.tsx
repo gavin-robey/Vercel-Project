@@ -1,13 +1,14 @@
+"use client";
+
 import Image from "next/image"
 import { notFound } from "next/navigation"
 import jobs from "@/data/jobs.json"
+import { use } from 'react';
 
-type Params = {
-    id: string
-}
 
-export default async function JobPage({ params }: { params: Params }) {
-    const job = jobs.find((j) => j.id.toString() === params.id)
+export default function JobPage({ params }: { params: Promise<{ id: string }>}){
+    const { id } = use(params);
+    const job = jobs.find((j) => j.id.toString() === id )
 
     if (!job) {
         notFound()
