@@ -2,13 +2,11 @@ import Image from "next/image"
 import { notFound } from "next/navigation"
 import projects from "@/data/projects.json"
 
-interface ProjectPageProps {
-    params: {
-        id: string
-    }
+type Params = {
+    id: string
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
+export default async function ProjectPage({ params }: { params: Params }) {
     const project = projects.find((p) => p.id.toString() === params.id)
 
     if (!project) {
